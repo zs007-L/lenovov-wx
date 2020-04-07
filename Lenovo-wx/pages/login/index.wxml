@@ -1,0 +1,13 @@
+<!--pages/login/index.wxml-->
+<view class="page-wrapper">
+      <view class="header">
+            <view></view>
+            <text>推荐登录方式</text>
+            <view></view>
+      </view>
+      <view class="content">
+            <view class="btn-wx">微信登录</view>
+            <view class="btn-login">已有联想账号登录</view>
+            <view class="return-home">返回首页</view>
+      </view>
+</view>

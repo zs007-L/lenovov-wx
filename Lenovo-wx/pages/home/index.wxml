@@ -1,0 +1,9 @@
+<!--pages/home/index.wxml-->
+<view class="page-wrapper">
+      <view class="header"></view>
+      <view class="content">
+            <view class="left"></view>
+            <view class="right"></view>
+      </view>
+      <view class="footer"></view>
+</view>

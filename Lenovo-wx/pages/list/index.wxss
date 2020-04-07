@@ -1,0 +1,109 @@
+/* pages/list/index.wxss */
+page {
+      width: 100%;
+      height: 100%;
+}
+.page-wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column
+}
+.header {
+      width: 100%;
+      height: 60rpx;
+      flex-shrink: 0;
+}
+.page-search {
+      box-sizing: border-box;
+      padding: 0 20rpx;
+}
+
+.search {
+      height: 60rpx;
+      border: 1px solid #e6e5e5;
+      text-align: center;
+      border-radius: 30rpx;
+      line-height: 60rpx;
+      color: #d0d0d0;
+      font-size: 26rpx;
+}
+
+.content { 
+      margin-top: 20rpx;
+      box-sizing: border-box;
+      padding: 0 0 0 20rpx;
+      flex-grow: 1;
+}
+
+.page-list {
+      display: flex;
+      margin-top: 10rpx;
+}
+
+.left>image {
+      width: 250rpx;
+      height: 250rpx;
+}
+
+.page-right {
+      overflow: hidden;
+      border-bottom: 2rpx solid #edf1f2;
+      margin-left: 10rpx;
+}
+
+.page-right>view {
+      height: 86rpx;
+}
+.page-right>.name {
+      color: #353535;
+}
+
+.page-right>.remark {
+      color: #8b8b8b;
+      font-size: 24rpx;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-top: 20rpx;
+}
+
+.page-right>.price {
+      color: #ff8200;
+      font-weight: 600;
+}
+.content {
+        height: 100%;
+        flex-grow: 1;
+}
+.content>.scroll {
+      height: 100%;
+}
+.content>.scroll>.list>.list-item>navigator {
+      display: flex;
+}
+.avatar {
+      width: 240rpx;
+      height: 240rpx;
+}
+.list-item-detail {
+      overflow: hidden;
+}
+.list-item-detail-title>.ellipsis {
+      font-size: 26rpx;
+}
+.list-item-detail-title>.remark {
+      font-size: 24rpx;
+      color: #808080;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+}
+.price {
+      font-size: 30rpx;
+      color: #f4364c;
+}
+.rate {
+      color: #808080;
+      font-size: 24rpx;
+}

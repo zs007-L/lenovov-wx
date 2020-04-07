@@ -1,0 +1,16 @@
+module.exports.getAvatar = function (id, list) {
+      if (id === 0) return '';
+      else {
+            for (var i = 0; i < list.length; i++) {
+                  if (list[i].id === id) return 'http://localhost:3000' + list[i].avatar;
+            }
+            return '';
+      }
+};
+module.exports.getSub3List = function (fid, listSub3) {
+      var result = [];
+      for (var i = 0; i < listSub3.length; i++) {
+            if (listSub3[i].fid === fid) result.push(listSub3[i]);
+      }
+      return result;
+}

@@ -1,0 +1,7 @@
+<!--pages/cart/index.wxml-->
+<view class="page-wrapper">
+      <view class="content">
+            <view class="page-shopp"></view>
+      </view>
+      <view class="footer"></view>
+</view>

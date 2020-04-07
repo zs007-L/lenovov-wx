@@ -1,0 +1,25 @@
+/* pages/cart/index.wxss */
+.page-wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.content {
+      flex-grow: 1;
+      background-color: #EDF1F2;
+}
+
+.page-shopp {
+      height: 260rpx;
+      background-color: #fff;
+      margin-top: 2rpx;
+}
+
+.footer {
+      flex-shrink: 0;
+      height: 100rpx;
+      width: 100%;
+      background-color: #000;
+}

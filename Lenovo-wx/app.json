@@ -1,0 +1,50 @@
+{
+      "pages": [
+            "pages/list/index",
+            "pages/category/index",
+            "pages/home/index",
+            "pages/detail/index",
+            "pages/cart/index",
+            "pages/login/index",
+            "pages/search/index",
+            "pages/profile/index"
+      ],
+      "window": {
+            "backgroundTextStyle": "light",
+            "navigationBarBackgroundColor": "#fff",
+            "navigationBarTitleText": "联想商城+",
+            "navigationBarTextStyle": "black"
+      },
+      "style": "v2",
+      "sitemapLocation": "sitemap.json",
+      "tabBar": {
+            "color": "#4A4A4A",
+            "selectedColor": "#E3221C",
+            "list": [
+                  {
+                        "pagePath": "pages/home/index",
+                        "text": "首页",
+                        "iconPath": "/images/icons/shouye.png",
+                        "selectedIconPath": "/images/icons/shouyex.png"
+                  },
+                  {
+                        "pagePath": "pages/category/index",
+                        "text": "分类",
+                        "iconPath": "/images/icons/fenlei.png",
+                        "selectedIconPath": "/images/icons/fenleix.png"
+                  },
+                  {
+                        "pagePath": "pages/cart/index",
+                        "text": "购物车",
+                        "iconPath": "/images/icons/gouwuche.png",
+                        "selectedIconPath": "/images/icons/gouwuchex.png"
+                  },
+                  {
+                        "pagePath": "pages/profile/index",
+                        "text": "个人",
+                        "iconPath": "/images/icons/geren.png",
+                        "selectedIconPath": "/images/icons/gerenx.png"
+                  }
+            ]
+      }
+}

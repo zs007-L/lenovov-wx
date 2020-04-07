@@ -1,0 +1,24 @@
+<!--pages/detail/index.wxml-->
+<view class="page-wrapper">
+      <view class="content">
+            <swiper circular='true' autoplay='true' indicator-dots='true' indicator-color='#EAEDF0' indicator-active-color='#B8C2C7'>
+                  <block wx:for='{{ banner }}' wx:key='index'>
+                        <swiper-item>
+                              <image src="{{ 'http://localhost:3000' + item }}"></image>
+                        </swiper-item>    
+                  </block>
+            </swiper>
+            <view class="page-infor">
+                  <view class="name">{{ list.name }}</view>
+                  <view class="remark">{{ list.remark }}</view>
+                  <view class="price">￥{{ list.price }}</view>
+            </view>
+      </view>
+      <view class="footer">
+            <view>
+                  <image src="../../images/detail/cart.png"></image>
+            </view>
+            <view class="btn-join">加入购物车</view>
+            <view class="btn-purch">立即购买</view>
+      </view>
+</view>

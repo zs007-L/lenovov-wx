@@ -1,0 +1,130 @@
+/* pages/category/index.wxss */
+
+page {
+      width: 100%;
+      height: 100%;
+}
+
+.page-wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.header>view {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20rpx;
+}
+
+.header>view>view>navigator {
+      display: inline-block;
+      color: #6d6d6d;
+}
+
+.header>view>view {
+      height: 90rpx;
+      line-height: 90rpx;
+}
+
+.header>view>view>navigator {
+      vertical-align: middle;
+}
+
+.header>view>view>h4 {
+      font-weight: normal;
+}
+
+.header>view>view>navigator>.return {
+      width: 70rpx;
+      height: 70rpx;
+      margin-top: 10rpx;
+}
+
+.header>view>view>navigator>.btn-open {
+      width: 40rpx;
+      height: 40rpx;
+      margin-top: 24rpx;
+}
+
+/* 内容 */
+
+.content {
+      flex-grow: 1;
+      display: flex;
+      overflow: hidden;
+      border-top: 2rpx solid #ccc;
+}
+
+.content>.left {
+      flex-shrink: 0;
+      border-right: 2rpx solid #ccc; 
+}
+
+.content>.left>.list>view {
+      padding: 10rpx 10rpx;
+      font-size: 22rpx;
+      color: #333;
+      text-align: center;
+      width: 158rpx;
+      height: 110rpx;
+      line-height: 110rpx;
+      position: relative
+}
+
+.content>.left>.list>view.active {
+      color: #FF8200;
+}
+
+.content>.left>.list>view.active>view.active {
+      display: inline-block;
+      width: 10rpx;
+      height: 40rpx;
+      background-color: #FF8200;
+      position: absolute;
+      left: 0;
+      top: 48rpx;
+}
+
+.content>.right {
+      background-color: #fff;
+      flex-grow: 1;
+      overflow: auto;
+}
+
+.content>.right>.avatar {
+      width: 550rpx;
+      height: 210rpx;
+}
+
+.list2 {
+      box-sizing: border-box;
+      padding: 0 10rpx;
+}
+
+.list2-name {
+      font-size: 24rpx;
+      color: #333;
+}
+
+.list2-avatar {
+      width: 140rpx;
+      height: 140rpx;
+      margin: 0 10rpx;
+}
+
+.item3-name {
+      font-size: 24rpx;
+      color: #999;
+}
+
+.listSub3 {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10rpx 20rpx;
+}
+
+.listSub3>navigator {
+      text-align: center;
+}

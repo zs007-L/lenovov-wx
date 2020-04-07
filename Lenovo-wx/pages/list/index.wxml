@@ -1,0 +1,31 @@
+<!--pages/list/index.wxml-->
+<view class="page-wrapper">
+      <view class="header">
+            <view class="page-search">
+                  <input placeholder="搜素商品" class="search" bindinput="searchData"></input>
+            </view>
+      </view>
+      <view class="content">
+            <view class="scroll">
+                  <view class="list">
+                        <view class="list-item" wx:for='{{ list }}' wx:key='index'>
+                              <navigator url="../detail/index?id={{item.id}}">
+                                    <view class="list-item.avatar">
+                                          <image class="avatar" src="{{'http://localhost:3000' + item.avatar}}"></image>
+                                    </view>
+                                    <view class="list-item-detail">
+                                          <view class="list-item-detail-title">
+                                                <view class="ellipsis">{{ item.name }}</view>
+                                                <view class="remark">{{ item.remark}}</view>
+                                          </view>
+                                          <view class="list-item-detail-info">
+                                                <view class="price">￥{{ item.price }}</view>
+                                                <view class="rate">{{ item.rate}}条评论</view>
+                                          </view>
+                                    </view>
+                              </navigator>
+                        </view>
+                  </view>
+            </view>
+      </view>
+</view>
